@@ -13,7 +13,7 @@ public class PlayerControler : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float rot = Input.GetAxis("Horizontal");
         float move = Input.GetAxis("Vertical");
