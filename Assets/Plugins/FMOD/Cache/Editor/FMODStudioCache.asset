@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/atau101/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638029782179282893
+  lastModified: 638029936329153333
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 758
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -35,13 +35,14 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -8811771007091953587}
   - {fileID: 4027193605404532475}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 5428369532520285179}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4027193605404532475}
   StringsBanks:
   - {fileID: -8811771007091953587}
-  cacheTime: 638029782179282893
+  cacheTime: 638029936329153333
   cacheVersion: 131593
 --- !u!114 &4027193605404532475
 MonoBehaviour:
@@ -58,8 +59,35 @@ MonoBehaviour:
   Path: FMOD/atau101/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638029782179272966
+  lastModified: 638029936329143371
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 30784
   Exists: 1
+--- !u!114 &5428369532520285179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/01jongly
+  m_EditorClassIdentifier: 
+  Path: event:/01jongly
+  Guid:
+    Data1: -1445845893
+    Data2: 1109991703
+    Data3: -272195942
+    Data4: -1663319905
+  Banks:
+  - {fileID: 4027193605404532475}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 9.400001
+  Length: 2821
